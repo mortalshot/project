@@ -87,11 +87,11 @@
                             <img src="./img/rating.png" alt="">
                         </div>
                         <div class="feature-body">
-                            <div class="inform-section-feature__title">
+                            <div class="inform-feature__title">
                                 Улучшает позиции в
                                 <span class="colorBlue">G</span>oogle и <span class="colorRed">Я</span>ндекс
                             </div>
-                            <div class="inform-section-feature__text">
+                            <div class="inform-feature__text">
                                 Комментарии, оценки и отзывы <b>индексируются поисковиками</b>
                             </div>
                         </div>
@@ -103,8 +103,7 @@
                         </div>
                         <div class="feature-body">
                             <div class="inform-feature__title">
-                                Собирает базу <br>
-                                пользователей
+                                Собирает базу пользователей
                             </div>
                             <div class="inform-feature__text">
                                 Подробная база о каждом пользователе, <b>аналитика, модерирование</b>
@@ -117,8 +116,7 @@
                         </div>
                         <div class="feature-body">
                             <div class="inform-feature__title">
-                                14 дней <br>
-                                бесплатный период
+                                14 дней бесплатный период
                             </div>
                             <div class="inform-feature__text">
                                 С видео-обучением по установке и модерированию. Полный доступ ко всему функционалу виджета
@@ -131,8 +129,7 @@
                         </div>
                         <div class="feature-body">
                             <div class="inform-feature__title">
-                                Изменить тарифный план <br>
-                                можно в любой момент
+                                Изменить тарифный план можно в любой момент
                             </div>
                             <div class="inform-feature__text">
                                 Увеличить или уменьшить стоимость за счёт подключения/отключения нужных функций можно в любой день использования виджета
