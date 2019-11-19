@@ -1051,9 +1051,15 @@ footer {
     cursor: pointer;
 }
 
+.account-nav-tabs li:hover {
+    background-color: #3c90f3;
+    color: #fff;
+}
+
 .account-nav-tabs .active {
     background-color: #3c90f3;
     color: #fff;
+    cursor: default;
 }
 
 .account-image {
@@ -1133,6 +1139,11 @@ footer {
     top: -18px;
 }
 
+.modal-close:active,
+.modal-close:focus {
+    outline: none;
+}
+
 .modal-content {
     position: relative;
     display: -webkit-box;
@@ -1203,6 +1214,11 @@ footer {
     right: 12px;
 }
 
+.auth-body-input .icon:focus,
+.auth-body-input .icon:active {
+    outline: none;
+}
+
 .auth-body__title {
     color: #271a19;
     font-family: "MuseoSansCyrlBold";
@@ -1230,6 +1246,7 @@ footer {
     padding: 20px;
     border: none;
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .auth-body-input input:active,
@@ -1239,6 +1256,7 @@ footer {
 
 .auth-body-input input::placeholder {
     font-size: 16px;
+    overflow: visible;
 }
 
 .auth-body__forget {
@@ -1355,6 +1373,10 @@ footer {
 
     .top-nav-menu li {
         padding-right: 26px;
+    }
+
+    .top-nav-menu li.active a {
+        cursor: default;
     }
 
     .userIteraction-menu li {
