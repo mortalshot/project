@@ -25,7 +25,7 @@
                             <div class="bulk-text-promo">
                                 <div class="bulk-text-promo__left">3 в 1</div>
                                 <div class="bulk-text-promo__right">
-                                    Виджет поддерживает три режима - <b>отзывы, комментарии, рейтинг</b>
+                                    Виджет поддерживает три режима - <span class="text-bold">отзывы, комментарии, рейтинг</span>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
                                         <span class="colorBlue">G</span>oogle и <span class="colorRed">Я</span>ндекс
                                     </div>
                                     <div class="inform-feature__text">
-                                        Комментарии, оценки и отзывы <b>индексируются поисковиками</b>
+                                        Комментарии, оценки и отзывы <span class="text-bold">индексируются поисковиками</span>
                                     </div>
                                 </div>
 
@@ -54,7 +54,7 @@
                                         Собирает базу пользователей
                                     </div>
                                     <div class="inform-feature__text">
-                                        Подробная база о каждом пользователе, <b>аналитика, модерирование</b>
+                                        Подробная база о каждом пользователе, <span class="text-bold">аналитика, модерирование</span>
                                     </div>
                                 </div>
                             </div>

@@ -34,8 +34,8 @@
                                         <div class="card-body">
                                             <div class="card-text">
                                                 <p>
-                                                    Перед покупкой товара в интернете <b>95% клиентов изучают отзывы.</b> <br> Отзывы помогут определиться с выбором, повысить доверие и увеличить количество покупок <br><br>
-                                                    <span><img class="accept_ICON" src="./img/accept_ICON.svg" alt=""><b>Сниппет в поисковой выдаче</b></span><br>
+                                                    Перед покупкой товара в интернете <span class="text-bold">95% клиентов изучают отзывы.</span> <br> Отзывы помогут определиться с выбором, повысить доверие и увеличить количество покупок <br><br>
+                                                    <img class="accept_ICON" src="./img/accept_ICON.svg" alt=""><span class="text-bold">Сниппет в поисковой выдаче</span><br>
                                                 </p>
                                                 <a class="card-button" href="">Подробнее о виджете</a>
                                             </div>
@@ -50,9 +50,9 @@
                                             <div class="card-text">
                                                 <p>
                                                     Быстрый способ связи с потенциальными и текущими клиентами. <br><br>
-                                                    <span><img class="accept_ICON" src="./img/accept_ICON.svg" alt=""><b>Модерация перед публикацией</b></span><br>
-                                                    <span><img class="accept_ICON" src="./img/accept_ICON.svg" alt=""><b>Уведомления в админке</b></span><br>
-                                                    <span><img class="accept_ICON" src="./img/accept_ICON.svg" alt=""><b>База всех сообщений юзера</b></span><br>
+                                                    <span class="text-bold"><img class="accept_ICON" src="./img/accept_ICON.svg" alt="">Модерация перед публикацией</span><br>
+                                                    <span class="text-bold"><img class="accept_ICON" src="./img/accept_ICON.svg" alt="">Уведомления в админке</span><br>
+                                                    <span class="text-bold"><img class="accept_ICON" src="./img/accept_ICON.svg" alt="">База всех сообщений юзера</span><br>
                                                 </p>
                                                 <a class="card-button" href="">Подробнее о виджете</a>
                                             </div>
@@ -68,7 +68,7 @@
                             <div class="afisha-trial-btn">
                                 <div class="afisha-trial-btn-inner">
                                     14 дней <br>
-                                    <b>бесплатно</b>
+                                    <span class="text-bold">бесплатно</span>
                                     <span class="afisha-trial-try">попробовать</span>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                                 <span class="colorBlue">G</span>oogle и <span class="colorRed">Я</span>ндекс
                             </div>
                             <div class="inform-feature__text">
-                                Комментарии, оценки и отзывы <b>индексируются поисковиками</b>
+                                Комментарии, оценки и отзывы <span class="text-bold">индексируются поисковиками</span>
                             </div>
                         </div>
 
@@ -106,7 +106,7 @@
                                 Собирает базу пользователей
                             </div>
                             <div class="inform-feature__text">
-                                Подробная база о каждом пользователе, <b>аналитика, модерирование</b>
+                                Подробная база о каждом пользователе, <span class="text-bold">аналитика, модерирование</span>
                             </div>
                         </div>
                     </div>

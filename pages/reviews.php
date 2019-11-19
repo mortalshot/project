@@ -25,7 +25,7 @@
                         <div class="bulk-text-promo">
                             <div class="bulk-text-promo__left">3 в 1</div>
                             <div class="bulk-text-promo__right">
-                                Виджет поддерживает три режима - <b>отзывы, комментарии, рейтинг</b>
+                                Виджет поддерживает три режима - <span class="text-bold">отзывы, комментарии, рейтинг</span>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                                     <span class="colorBlue">G</span>oogle и <span class="colorRed">Я</span>ндекс
                                 </div>
                                 <div class="inform-feature__text">
-                                    Комментарии, оценки и отзывы <b>индексируются поисковиками</b>
+                                    Комментарии, оценки и отзывы <span class="text-bold">индексируются поисковиками</span>
                                 </div>
                             </div>
 
@@ -54,7 +54,7 @@
                                     Собирает базу пользователей
                                 </div>
                                 <div class="inform-feature__text">
-                                    Подробная база о каждом пользователе, <b>аналитика, модерирование</b>
+                                    Подробная база о каждом пользователе, <span class="text-bold">аналитика, модерирование</span>
                                 </div>
                             </div>
                         </div>
@@ -101,9 +101,9 @@
                     </div>
                     <div class="card-other-body">
                         <div class="card-others-text">
-                            Перед покупкой товара в интернете <b>95% клиентов изучают отзывы.</b> Отзывы помогут определиться с выбором, повысить доверие и увеличить количество покупок <br><br>
+                            Перед покупкой товара в интернете <span class="text-bold">95% клиентов изучают отзывы.</span> Отзывы помогут определиться с выбором, повысить доверие и увеличить количество покупок <br><br>
 
-                            <span><b><img class="accept_ICON" src="../img/accept_ICON.svg" alt="">Сниппет в поисковой выдаче</b></span>
+                            <span><span class="text-bold"><img class="accept_ICON" src="../img/accept_ICON.svg" alt="">Сниппет в поисковой выдаче</span></span>
                         </div>
                     </div>
                     <div class="card-other-footer">
@@ -129,11 +129,11 @@
                     <div class="card-other-body">
                         <div class="card-others-text">
                             Быстрый способ связи с потенциальными и текущими клиентами. <br> <br>
-                            <b>
+                            <span class="text-bold">
                                 <span><img class="accept_ICON" src="../img/accept_ICON.svg" alt="">Модерация перед публикацией</span> <br>
                                 <span><img class="accept_ICON" src="../img/accept_ICON.svg" alt="">Уведомления в админке</span><br>
                                 <span><img class="accept_ICON" src="../img/accept_ICON.svg" alt="">База всех сообщений юзера</span>
-                            </b>
+                            </span>
                         </div>
                     </div>
                     <div class="card-other-footer">
@@ -157,11 +157,11 @@
                     <div class="card-other-body">
                         <div class="card-others-text">
                             Содержит 4 варианта опросов для сайта. Что-нибудь еще <br> <br>
-                            <b>
+                            <span class="text-bold">
                                 <span><img class="accept_ICON" src="../img/accept_ICON.svg" alt="">Статистика</span> <br>
                                 <span><img class="accept_ICON" src="../img/accept_ICON.svg" alt="">Аналитика</span><br>
                                 <span><img class="accept_ICON" src="../img/accept_ICON.svg" alt="">Вариативный подход</span>
-                            </b>
+                            </span>
                         </div>
                     </div>
                     <div class="card-other-footer">
@@ -240,18 +240,17 @@
                 <div class="tariffs-section-right">
                     <div class="tariffs-widget">
                         <div class="tariffs-widget-wrapper">
-                            <div class="tariffs-widget-header">
-                                <div class="tariffs-widget-header__title">
+                            <div class="tariffs-widget-body">
+                                <div class="tariffs-widget-title">
                                     виджет «Отзывы»
                                 </div>
+
                             </div>
-                            <div class="tariffs-widget-body">
-                                <div class="tariffs-widget-body-chat">
-                                    <img class="green-chat" src="../img/review/green-chat.png" alt="">
-                                    <img class="red-chat" src="../img/review/red-chat.png" alt="">
-                                    <img class="blue-chat" src="../img/review/blue-chat.png" alt="">
-                                </div>
-                            </div>
+                        </div>
+                        <div class="tariffs-widget-body-chat">
+                            <img class="green-chat" src="../img/review/green-chat.png" alt="">
+                            <img class="red-chat" src="../img/review/red-chat.png" alt="">
+                            <img class="blue-chat" src="../img/review/blue-chat.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -269,19 +268,19 @@
             <div class="account-wrapper">
                 <nav>
                     <ul class="account-nav-tabs">
-                        <li class="active"><a href="">Статистика</a></li>
-                        <li><a href="">Модерирование</a></li>
-                        <li><a href="">Модерирование</a></li>
-                        <li><a href="">Модерирование</a></li>
-                        <li><a href="">Модерирование</a></li>
-                        <li><a href="">Модерирование</a></li>
+                        <li class="active">Статистика</li>
+                        <li>Модерирование</li>
+                        <li>Модерирование</li>
+                        <li>Модерирование</li>
+                        <li>Модерирование</li>
+                        <li>Модерирование</li>
                     </ul>
                 </nav>
                 <img class="account-image" src="../img/review/account.png" alt="">
             </div>
         </div>
     </section>
-    <section class="section-try">
+    <section class="section-try section-try-inline">
         <div class="section-try-wrapper">
             <div class="section-try-promo">
                 <div class="section-try-text">

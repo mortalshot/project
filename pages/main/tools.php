@@ -4,9 +4,7 @@
                 <div class="tools-wrapper">
                     <div class="tools-LeftSide">
                         <div class="pulse">
-                            <a href="">
-                                <img src="../img/Polygon_4_copy_2.png" alt="">
-                            </a>
+                            <img src="../img/Polygon_4_copy_2.png" alt="">
                         </div>
                         <p class="nestedCircle__time">2:27</p>
                         <p class="nestedCircle__text">Установка BULK</p>

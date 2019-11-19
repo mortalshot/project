@@ -2,9 +2,9 @@
         <div class="container">
             <nav class="userIteraction-nav">
                 <ul class="userIteraction-menu">
-                    <li class="active"><a href="#">Отзывы и рейтинг</a></li>
-                    <li><a href="#">Комментарии</a></li>
-                    <li><a href="#">Опросы</a></li>
+                    <li class="active">Отзывы и рейтинг</li>
+                    <li>Комментарии</li>
+                    <li>Опросы</li>
                 </ul>
             </nav>
         </div>

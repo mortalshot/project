@@ -15,8 +15,8 @@
                     </div>
                 </div>
                 <div class="footer-btn">
-                    <button class="footer-btn__support">техподдержка</button>
-                    <button class="footer-btn__reg">регистрация</button>
+                    <button class="footer-btn__support center-animation">техподдержка</button>
+                    <button class="footer-btn__reg skyblue">регистрация</button>
                 </div>
             </div>
         </div>

@@ -24,8 +24,8 @@
                         </div>
 
                         <div class="top-nav-btn">
-                            <button class="top-nav-btn__registration">
-                                <a href="">Регистрация</a>
+                            <button class="top-nav-btn__registration skyblue">
+                                Регистрация
                             </button>
                             <a href="" class="top-nav-btn__question">Вопрос в техподдержку</a>
                         </div>
