@@ -393,11 +393,13 @@ top-nav-btn__registration:active {
     margin: 0 auto;
 }
 
-.tab-content, .account-tab-content {
+.tab-content,
+.account-tab-content {
     display: none;
 }
 
-.tab-content.active, .account-tab-content.active {
+.tab-content.active,
+.account-tab-content.active {
     display: block;
     padding: 20px 10px;
 }
@@ -1014,9 +1016,9 @@ footer {
     right: 80%;
 }
 
-/*.tariffs-section*/
+/* === / .tariffs-section === */
 
-/*.account*/
+/* === .account === */
 .account {
     min-height: 600px;
     padding: 0 15px;
@@ -1024,7 +1026,8 @@ footer {
     padding-top: 60px;
     color: #000;
 }
-.account-wrapper{
+
+.account-wrapper {
     display: flex;
 }
 
@@ -1036,43 +1039,12 @@ footer {
     text-align: center;
 }
 
-.account-nav-tabs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 30px;
-}
-
-.account-nav-tabs li {
-    background-color: #ebf0f6;
-    border-radius: 3px;
-    padding: 16px 24px;
-    margin-bottom: 6px;
-    margin: 5px;
-    flex-basis: 200px;
-    font-family: "MuseoSansCyrlBold";
-    font-size: 16px;
-    color: #202937;
-    cursor: pointer;
-}
-
-.account-nav-tabs li:hover {
-    background-color: #3c90f3;
-    color: #fff;
-}
-
-.account-nav-tabs .active {
-    background-color: #3c90f3;
-    color: #fff;
-    cursor: default;
-}
-
 .account-image {
     width: 100%;
     height: auto;
 }
 
-/* === tabs === */
+/* === .tabs === */
 .account .account-tabs {
     display: flex;
     flex-direction: column;
@@ -1081,7 +1053,6 @@ footer {
 }
 
 .account .tab-header {
-/*    flex-direction: column;*/
     flex-direction: row;
     margin: 0;
     justify-content: inherit;
@@ -1116,11 +1087,11 @@ footer {
 
 }
 
-/* === / tabs === */
-/*.account*/
-/*.reviews*/
+/* === / .tabs === */
+/* === / .account === */
+/* === / .reviews === */
 
-/*.comments*/
+/* === .comments === */
 .comments-firstScreen .firstScreen-nav-menu label {
     color: #000;
 }
@@ -1138,27 +1109,22 @@ footer {
     display: none;
 }
 
-/*.comments*/
+/* === / .comments === */
 
-/*.auth*/
+/* === .auth === */
 .modal {
     position: fixed;
-    /* фиксированное положение */
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
-    /* цвет фона */
     z-index: 1050;
     opacity: 0;
-    /* по умолчанию модальное окно прозрачно */
     -webkit-transition: opacity 200ms ease-in;
     -moz-transition: opacity 200ms ease-in;
     transition: opacity 200ms ease-in;
-    /* анимация перехода */
     pointer-events: none;
-    /* элемент невидим для событий мыши */
     margin: 0;
     padding: 0;
     display: flex;
@@ -1379,9 +1345,7 @@ footer {
     color: #c2190d;
 }
 
-/*.auth*/
-
-@media (min-width: 320px) {}
+/* === / .auth ===*/
 
 @media (min-width: 640px) {
     .firstScreen-afisha-feedback-review {
@@ -1564,30 +1528,27 @@ footer {
         text-align: inherit;
     }
 
-    .account-nav-tabs {
-        flex-direction: column;
-    }
-
-    .account-nav-tabs li {
-        flex-basis: inherit;
-    }
-    
     .account .account-tabs {
         flex-direction: row;
         align-items: inherit;
     }
+
     .account .tab-header {
         flex-direction: column;
         flex-wrap: inherit;
         justify-content: flex-start;
     }
+
     .account .tab-title {
         flex-basis: inherit;
     }
+
     .account .account-tab-title {
         flex-basis: inherit;
     }
-    .tab-content.active, .account-tab-content.active{
+
+    .tab-content.active,
+    .account-tab-content.active {
         padding: 0;
     }
 
