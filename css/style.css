@@ -360,42 +360,49 @@ top-nav-btn__registration:active {
 .userIteraction {
     min-height: 900px;
     padding: 15px;
+    color: #000;
 }
 
-.userIteraction-menu {
+/* === tabset === */
+.tab-header {
     display: flex;
     justify-content: space-around;
-    padding-top: 60px;
+    flex-direction: column;
+    text-align: center;
 }
 
-#Iteraction-menu {
-    display: none;
-}
-
-.userIteraction-menu li {
-    white-space: nowrap;
-    display: flex;
-    text-decoration: none;
-    color: #1f2837;
-    font-family: MuseoSansCyrlBold;
-    font-size: 11px;
+.tab-title {
+    font-size: 18px;
+    line-height: 22px;
     text-transform: uppercase;
+    color: #1f2837;
     cursor: pointer;
-    transition: all 0.2s ease;
+    font-family: "MuseoSansCyrlBold";
+    padding: 10px 0;
 }
 
-.userIteraction-nav label {
-    padding: 10px 15px;
-    color: #000;
+.tab-title.active {
+    cursor: default;
+}
+
+.tab-title.active,
+.tab-title:hover {
+    color: #1e7af8;
+    border-bottom: 4px solid #3c90f3;
+    display: table;
+    margin: 0 auto;
+}
+
+.tab-content, .account-tab-content {
     display: none;
 }
 
-.userIteraction-nav .active,
-.userIteraction-menu li:hover {
-    color: #1e7af8;
-    padding-bottom: 10px;
-    border-bottom: 4px solid #3c90f3;
+.tab-content.active, .account-tab-content.active {
+    display: block;
+    padding: 20px 10px;
 }
+
+/* === / tabset === */
 
 /*.userIteraction*/
 
@@ -1015,12 +1022,10 @@ footer {
     padding: 0 15px;
     position: relative;
     padding-top: 60px;
+    color: #000;
 }
-
-.account-wrapper {
+.account-wrapper{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
 .account-section-title {
@@ -1064,8 +1069,54 @@ footer {
 
 .account-image {
     width: 100%;
+    height: auto;
 }
 
+/* === tabs === */
+.account .account-tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.account .tab-header {
+/*    flex-direction: column;*/
+    flex-direction: row;
+    margin: 0;
+    justify-content: inherit;
+    flex-wrap: wrap;
+}
+
+.account .account-tab-title {
+    background-color: #ebf0f6;
+    border-radius: 3px;
+    padding: 16px 24px;
+    margin-bottom: 6px;
+    margin: 5px;
+    font-family: "MuseoSansCyrlBold";
+    font-size: 16px;
+    color: #202937;
+    cursor: pointer;
+    text-transform: none;
+    flex-basis: 200px;
+    text-align: left;
+}
+
+.account .account-tab-title.active {
+    cursor: default;
+}
+
+.account .account-tab-title.active,
+.account .account-tab-title:hover {
+    background-color: #3c90f3;
+    color: #fff;
+    border: none;
+    display: block;
+
+}
+
+/* === / tabs === */
 /*.account*/
 /*.reviews*/
 
@@ -1424,10 +1475,19 @@ footer {
         max-width: 432px;
     }
 
-
-
     .bulk-text {
         padding: 0;
+    }
+
+    .tab-header {
+        flex-direction: row;
+        text-align: inherit;
+    }
+
+    .tab-title.active,
+    .tab-title:hover {
+        display: block;
+        margin: 0;
     }
 }
 
@@ -1499,14 +1559,6 @@ footer {
         max-width: 340px;
     }
 
-    .account {
-        padding-top: 90px;
-    }
-
-    .account-wrapper {
-        flex-direction: row;
-    }
-
     .account-section-title {
         padding-bottom: 68px;
         text-align: inherit;
@@ -1519,6 +1571,25 @@ footer {
     .account-nav-tabs li {
         flex-basis: inherit;
     }
+    
+    .account .account-tabs {
+        flex-direction: row;
+        align-items: inherit;
+    }
+    .account .tab-header {
+        flex-direction: column;
+        flex-wrap: inherit;
+        justify-content: flex-start;
+    }
+    .account .tab-title {
+        flex-basis: inherit;
+    }
+    .account .account-tab-title {
+        flex-basis: inherit;
+    }
+    .tab-content.active, .account-tab-content.active{
+        padding: 0;
+    }
 
     .account-image {
         max-width: 750px;
@@ -1530,6 +1601,10 @@ footer {
 
     .try-arrow {
         display: block;
+    }
+
+    .tab-header {
+        margin: 66px 0px;
     }
 
 }
@@ -1565,6 +1640,10 @@ footer {
 
     .red-chat {
         display: block;
+    }
+
+    .account .tab-container {
+        padding: 0 46px;
     }
 }
 

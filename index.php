@@ -146,7 +146,7 @@
     <? include('./pages/main/user-iteraction.php') ?>
     <? include('./pages/main/tools.php') ?>
     <? include('./pages/main/footer.php') ?>
-
+<script src="js/main.js"></script>
 </body>
 
 </html>
